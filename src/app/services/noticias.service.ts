@@ -10,6 +10,8 @@ const apiURL = environment.apiURL;
 
 const headers = new HttpHeaders({
   'X-Api-key': apiKey
+  // "Content-Type": "application/json",
+  // 'Access-Control-Allow-Origin': '*',
 });
 
 @Injectable({
